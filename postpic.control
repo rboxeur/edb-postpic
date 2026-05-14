@@ -1,0 +1,6 @@
+# postpic.control
+# Extension metadata for postpic
+comment = 'PostPic image processing extension (GraphicsMagick, JPEG/PNG)'
+default_version = '0.9.1'
+module_pathname = '$libdir/postpic'
+relocatable = false
