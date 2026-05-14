@@ -1,23 +1,29 @@
 # edb-postpic
 
-edb-postpic modernise et adapte le projet original `postpic` pour EDB Postgres Advanced Server 17 et GraphicsMagick (MagickWand).
+edb-postpic modernizes and adapts the original `postpic` project to work with EDB Postgres Advanced Server 17 and GraphicsMagick MagickWand.
 
 ## Description
-Ce dépôt contient les sources et le Makefile pour construire l'extension/outil `edb-postpic` qui utilise MagickWand (GraphicsMagick) pour le traitement d'images depuis Postgres.
+This repository contains the source code and a Makefile to build the `edb-postpic` extension/tool that enables image processing from Postgres using GraphicsMagick MagickWand.
 
-## Dépendances
-- **EDB Postgres Advanced Server 17** (ou PostgreSQL compatible)
-- **GraphicsMagick 1.3.42** (MagickWand)
-- Outils de compilation : `gcc`/`clang`, `make`, `pkg-config`
-- Autres libs : `libxml2`, `zlib` (selon configuration)
+## Dependencies
+**Required**
+- EDB Postgres Advanced Server 17 or a compatible PostgreSQL distribution
+- GraphicsMagick 1.3.42 with MagickWand
+- pkg-config
+- A C compiler such as gcc or clang
 
-## Installation (exemple)
+**Optional**
+- libxml2, zlib, and other libraries depending on your configuration
+
+## Installation example
 ```bash
-# définir l'emplacement de GraphicsMagick si nécessaire
+# set GraphicsMagick location if needed
 export MAGICK_HOME=/usr/local
 export PKG_CONFIG_PATH=$MAGICK_HOME/lib/pkgconfig:$PKG_CONFIG_PATH
 
 # build
 make
-# installer (exemple)
+
+# install example
 sudo make install
+
