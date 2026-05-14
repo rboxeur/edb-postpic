@@ -1,6 +1,6 @@
 # edb-postpic
 
-edb-postpic modernizes and adapts the original `postpic` project to work with EDB Postgres Advanced Server 17 and GraphicsMagick MagickWand.
+edb-postpic modernizes and adapts the original PostgreSQL extension for image-processing aka [postpic](https://github.com/drotiro/postpic) to work with EDB Postgres Advanced Server 17 and GraphicsMagick MagickWand.
 
 ## Description
 This repository contains the source code and a Makefile to build the `edb-postpic` extension/tool that enables image processing from Postgres using GraphicsMagick MagickWand.
