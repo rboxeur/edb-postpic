@@ -1,0 +1,8 @@
+GraphicsMagick license
+
+This file should contain the full, original license text for GraphicsMagick / MagickWand
+as distributed by the GraphicsMagick project. When redistributing binaries that
+include or link GraphicsMagick, include the complete license text here.
+
+Note: Replace this placeholder with the exact license text copied from the
+GraphicsMagick distribution or website before publishing binaries.

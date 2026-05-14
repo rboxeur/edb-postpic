@@ -1,0 +1,17 @@
+# Build artifacts
+build/
+*.o
+*.so
+*.a
+*.dll
+*.exe
+
+# Editor files
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Logs and temporary
+*.log
+tmp/
